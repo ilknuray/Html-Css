@@ -1,0 +1,23 @@
+.box {
+  width: 100px;
+  height: 100px;
+}
+.box1 {
+  background-color: blue;
+}
+.box2 {
+  background-color: blueviolet;
+  flex: 2;
+}
+.box3 {
+  background-color: cornflowerblue;
+  flex: 2;
+}
+.box4 {
+  background-color: darkmagenta;
+}
+.conteiner {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
